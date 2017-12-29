@@ -6,5 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateSignedXML", "CreateSi
 EndProject
 Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206F0F80-89F0-49EA-8EB3-ABE924FAB5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206F0F80-89F0-49EA-8EB3-ABE924FAB5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
