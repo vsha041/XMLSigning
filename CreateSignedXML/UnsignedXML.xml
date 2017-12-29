@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<Response xmlns="urn:oasis:names:tc:SAML:2.0:protocol" Destination="http://www.google.com/" ID="736FADE9-1C10-450C-8452-AC08FE41D247" IssueInstant="2004-12-05T09:22:05Z" Version="2.0">
+    <ns1:Issuer xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">Test</ns1:Issuer>
+    <Status>
+        <StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+    </Status>
+    <ns2:Assertion xmlns:ns2="urn:oasis:names:tc:SAML:2.0:assertion" ID="736FADE9-1C10-450C-8452-AC08FE41D247" IssueInstant="2004-12-05T09:22:05Z" Version="2.0">
+        <ns2:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">Test</ns2:Issuer>
+        <ns2:Subject>
+            <ns2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">Generator</ns2:NameID>
+            <ns2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <ns2:SubjectConfirmationData NotOnOrAfter="2024-12-05T09:27:05Z" Recipient="http://www.google.com/"/>
+            </ns2:SubjectConfirmation>
+        </ns2:Subject>
+        <ns2:Conditions NotBefore="2004-12-05T09:17:05Z" NotOnOrAfter="2024-12-05T09:27:05Z">
+            <ns2:AudienceRestriction>
+                <ns2:Audience>http://www.google.com/</ns2:Audience>
+            </ns2:AudienceRestriction>
+        </ns2:Conditions>
+        <ns2:AuthnStatement AuthnInstant="2017-06-28T20:54:10Z" SessionIndex="736FADE9-1C10-450C-8452-AC08FE41D247" SessionNotOnOrAfter="2017-06-28T20:55:40Z">
+            <ns2:AuthnContext>
+                <ns2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</ns2:AuthnContextClassRef>
+            </ns2:AuthnContext>
+        </ns2:AuthnStatement>
+        <ns2:AttributeStatement>
+            <ns2:Attribute Name="TestAttribute" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <ns2:AttributeValue>TestValue</ns2:AttributeValue>
+            </ns2:Attribute>
+        </ns2:AttributeStatement>
+    </ns2:Assertion>
+</Response>
